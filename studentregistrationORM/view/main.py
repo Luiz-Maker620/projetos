@@ -47,7 +47,7 @@ def main():
 
         elif opcao == "4":
             id = int(input("Informe o ID que deseja deletar:"))
-            service.remove_student(1)
+            service.remove_student(id)
 
         elif opcao == "5":
             print("Saindo do sistema")
